@@ -6,10 +6,10 @@ out_dir="$2"
 out_tag="$3"
 
 overwrite=true
-if [ -f $out_dir/$out_tag.afa -a $overwrite = false]
-then
+if [ -f "$out_dir/$out_tag.afa" ] && [ "$overwrite" = false ]; then
     exit 0
 fi
+
 
 # resources
 CPU="$4"
