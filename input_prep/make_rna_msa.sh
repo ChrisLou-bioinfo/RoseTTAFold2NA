@@ -14,8 +14,8 @@ fi
 # resources
 CPU="$4"
 MEM="$5"
-
-RNADBDIR="$PIPEDIR/RNA"
+DBPATH="$6"
+RNADBDIR="$DBPATH/RNA"
 
 # databases
 db0="$RNADBDIR/Rfam.cm";
